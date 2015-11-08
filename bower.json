@@ -1,0 +1,22 @@
+{
+  "name": "jquery-shifter",
+  "version": "0.5.0",
+  "description": "Simple and lightweight shift/slide plugin for jquery(less than 1kb).",
+  "homepage": "https://github.com/ipluser/jquery-shifter",
+  "keywords": [
+    "shift",
+    "shifter",
+    "slide",
+    "slider",
+    "jquery-shift",
+    "jquery-shifter",
+    "jquery-slide",
+    "jquery-slider"
+  ],
+  "dependencies": {
+    "jquery": ">= 1.7.0"
+  },
+  "authors": [
+    "Plus <ipluser@163.com>"
+  ]
+}

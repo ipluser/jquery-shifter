@@ -1,0 +1,14 @@
+.shifter-wrap {
+  overflow: hidden;
+}
+.shifter {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+}
+.shifter > li {
+  display: inline-block;
+  float: left;
+}
