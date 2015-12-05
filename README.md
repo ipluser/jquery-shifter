@@ -46,6 +46,10 @@ $(function() {
 ```
 
 ## Changelog
+### 0.5.1
+- fix can not show custom forward and backward selector<br>
+05.12.2015
+
 ### 0.5.0
 - initial release<br>
 08.11.2015

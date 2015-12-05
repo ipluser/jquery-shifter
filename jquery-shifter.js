@@ -1,5 +1,5 @@
 /**
- * jquery-shifter
+ * jquery-shifter 0.5.1
  * @author Plus <ipluser@163.com>
  * @license MIT
  */
@@ -35,8 +35,14 @@
         shiftDistance = 0;
 
     maxShift = boxesNum < maxShift ? boxesNum : maxShift;
-    shifter.after(backward);
-    shifter.after(forward);
+
+    if (!settings.forwardSelector) {
+      shifter.after(forward);
+    }
+
+    if (!settings.backwardSelector) {
+      shifter.after(backward);
+    }
 
     shifter.css('width', unitDistance * groups + 'px');
     boxes.css('width', unitDistance / maxShift + 'px')
