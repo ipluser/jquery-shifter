@@ -49,6 +49,10 @@ $(function() {
 ```
 
 ## Changelog
+### 0.5.2
+- fix reverse elements of arrow<br>
+07.04.2016
+
 ### 0.5.1
 - fix can not show custom forward and backward selector<br>
 05.12.2015
