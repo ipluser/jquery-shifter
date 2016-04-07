@@ -36,12 +36,12 @@
 
     maxShift = boxesNum < maxShift ? boxesNum : maxShift;
 
-    if (!settings.forwardSelector) {
-      shifter.after(forward);
-    }
-
     if (!settings.backwardSelector) {
       shifter.after(backward);
+    }
+
+    if (!settings.forwardSelector) {
+      shifter.after(forward);
     }
 
     shifter.css('width', unitDistance * groups + 'px');
