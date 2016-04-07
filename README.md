@@ -1,6 +1,9 @@
 ## jquery-shifter
 Simple and lightweight shift/slide plugin for jquery(less than 1kb).
 
+## Resources
+- [online example](http://ipluser.github.io/jquery-shifter/)
+
 ## How to use
 ### Include jquery, jquery-shifter and css
 ```html
