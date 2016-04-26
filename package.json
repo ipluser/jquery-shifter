@@ -11,11 +11,14 @@
     "prepush": "npm run lint"
   },
   "keywords": [
-    "magicbook",
-    "markdown",
-    "docs",
-    "magic",
-    "book"
+    "shift",
+    "shifter",
+    "slide",
+    "slider",
+    "jquery-shift",
+    "jquery-shifter",
+    "jquery-slide",
+    "jquery-slider"
   ],
   "devDependencies": {
     "eslint": "^2.8.0",
