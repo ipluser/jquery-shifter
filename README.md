@@ -54,18 +54,22 @@ $(function() {
 ### 0.5.3
 - refactor codes
 - add gulp, eslint, etc
+
 26.04.2016
 
 ### 0.5.2
-- fix reverse elements of arrow<br>
+- fix reverse elements of arrow
+
 07.04.2016
 
 ### 0.5.1
-- fix can not show custom forward and backward selector<br>
+- fix can not show custom forward and backward selector
+
 05.12.2015
 
 ### 0.5.0
-- initial release<br>
+- initial release
+
 08.11.2015
 
 ## License
