@@ -1,0 +1,16 @@
+{
+  "name": "jquery-shifter",
+  "version": "0.5.1",
+  "description": "Simple and lightweight shift/slide plugin for jquery(less than 1kb).",
+  "author": "ipluser",
+  "main": "jquery-shifter.js",
+  "keywords": [
+    "magicbook",
+    "markdown",
+    "docs",
+    "magic",
+    "book"
+  ],
+  "repository": "https://github.com/ipluser/jquery-shifter",
+  "license": "MIT"
+}
