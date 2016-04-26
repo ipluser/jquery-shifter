@@ -1,6 +1,8 @@
 ## jquery-shifter
 Simple and lightweight shift/slide plugin for jquery(less than 1kb).
 
+![jquery-shifter-samples](public/img/samples.gif)
+
 ## Resources
 - [online example](http://ipluser.github.io/jquery-shifter/)
 
@@ -49,6 +51,11 @@ $(function() {
 ```
 
 ## Changelog
+### 0.5.3
+- refactor codes
+- add gulp, eslint, etc
+26.04.2016
+
 ### 0.5.2
 - fix reverse elements of arrow<br>
 07.04.2016

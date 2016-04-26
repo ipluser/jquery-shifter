@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="renderer" content="webkit">
+  <meta name="description" content="Simple and lightweight shift/slide plugin for jquery(less than 1kb).">
+  <meta name="keywords" content="shift,slide,jquery,jquery-shifter,shifter,slider">
+  <title>jquery-shifter - Simple and lightweight shift/slide plugin for jquery(less than 1kb).</title>
+
+  <link rel="stylesheet" href="dist/jquery-shifter.min.css"/>
+  <style>
+    .shifter-wrap {
+      margin-bottom: 50px;
+    }
+    .shifter img {
+      height: 150px;
+    }
+    .shifter-forward {
+      margin-right: 30px;
+    }
+
+    .demo3 {
+      position: relative;
+    }
+    .shifterArrow {
+      position: absolute;
+      top: 35px;
+      font-size: 24px;
+      padding: 20px;
+    }
+    #backwardArrow {
+      right: 0;
+    }
+    .left-arrow {
+      width: 0;
+      height: 0;
+      border-bottom: 10px solid transparent;
+      border-top: 10px solid transparent;
+      border-right: 10px solid #2f2f2f;
+      font-size: 0;
+      line-height: 0;
+    }
+    .right-arrow {
+      width: 0;
+      height: 0;
+      border-bottom: 10px solid transparent;
+      border-top: 10px solid transparent;
+      border-left: 10px solid #2f2f2f;
+      font-size: 0;
+      line-height: 0;
+    }
+  </style>
+
+  <script src="public/js/jquery.min.js"></script>
+  <script src="dist/jquery-shifter.min.js"></script>
+  <script>
+    $(function () {
+      $('#shifter1').shifter();
+
+      $('#shifter2').shifter();
+
+      $('#shifter3').shifter({
+        forwardSelector: '#forwardArrow',
+        backwardSelector: '#backwardArrow',
+        speed: 1000,
+        maxShift: 3
+      });
+
+      $('#shifter4').shifter({
+        speed: 1000,
+        maxShift: 1
+      });
+    });
+  </script>
+</head>
+<body>
+  <h2>demo 1</h2>
+  <div class="shifter-wrap">
+    <ul id="shifter1" class="shifter">
+      <li><img src="public/img/img1.jpg" /></li>
+      <li><img src="public/img/img2.jpg" /></li>
+      <li><img src="public/img/img3.jpg" /></li>
+    </ul>
+  </div>
+
+  <h2>demo 2</h2>
+  <div class="shifter-wrap">
+    <ul id="shifter2" class="shifter">
+      <li><img src="public/img/img1.jpg" /></li>
+      <li><img src="public/img/img2.jpg" /></li>
+      <li><img src="public/img/img3.jpg" /></li>
+      <li><img src="public/img/img4.jpg" /></li>
+      <li><img src="public/img/img5.jpg" /></li>
+      <li><img src="public/img/img6.jpg" /></li>
+      <li><img src="public/img/img7.jpg" /></li>
+      <li><img src="public/img/img8.jpg" /></li>
+      <li><img src="public/img/img9.jpg" /></li>
+    </ul>
+  </div>
+
+  <h2>demo 3</h2>
+  <div class="shifter-wrap demo3">
+    <ul id="shifter3" class="shifter">
+      <li><img src="public/img/img1.jpg" /><p>description 1</p></li>
+      <li><img src="public/img/img2.jpg" /><p>description 2</p></li>
+      <li><img src="public/img/img3.jpg" /><p>description 3</p></li>
+      <li><img src="public/img/img4.jpg" /><p>description 4</p></li>
+      <li><img src="public/img/img5.jpg" /><p>description 5</p></li>
+      <li><img src="public/img/img6.jpg" /><p>description 6</p></li>
+      <li><img src="public/img/img7.jpg" /><p>description 7</p></li>
+      <li><img src="public/img/img8.jpg" /><p>description 8</p></li>
+      <li><img src="public/img/img9.jpg" /><p>description 9</p></li>
+    </ul>
+    <a id="forwardArrow" class="shifterArrow" href="javascript:void(0)"><span class="left-arrow"></span></a>
+    <a id="backwardArrow" class="shifterArrow" href="javascript:void(0)"><span class="right-arrow"></span></a>
+  </div>
+
+  <h2>demo 4</h2>
+  <div class="shifter-wrap demo3">
+    <ul id="shifter4" class="shifter">
+      <li><img src="public/img/img1.jpg" /><p>description 1</p></li>
+      <li><img src="public/img/img2.jpg" /><p>description 2</p></li>
+      <li><img src="public/img/img3.jpg" /><p>description 3</p></li>
+    </ul>
+  </div>
+</body>
+</html>
