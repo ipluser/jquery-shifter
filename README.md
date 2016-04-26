@@ -7,6 +7,17 @@ Simple and lightweight shift/slide plugin for jquery(less than 1kb).
 - [online example](http://ipluser.github.io/jquery-shifter/)
 
 ## How to use
+### Installing
+```
+bower install magicbookjs
+```
+
+or
+
+```
+npm install magicbookjs
+```
+
 ### Include jquery, jquery-shifter and css
 ```html
 <script src="jquery-latest.min.js"></script>
