@@ -9,13 +9,13 @@ Simple and lightweight shift/slide plugin for jquery(less than 1kb).
 ## How to use
 ### Installing
 ```
-bower install magicbookjs
+bower install jquery-shifter
 ```
 
 or
 
 ```
-npm install magicbookjs
+npm install jquery-shifter
 ```
 
 ### Include jquery, jquery-shifter and css
