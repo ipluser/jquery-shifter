@@ -56,12 +56,21 @@ $(function() {
     backwardText: 'right',  // Text for the "backward" button, default is "backward"
     forwardSelector: '#forwardArrow',   // Declare selector of "forward" button 
     backwardSelector: '#backwardArrow', // Declare selector of "backward" button
+    switcher: true, // Whether navigator auto to switch
     speed: 1000,    // The speed to animate each shift (in milliseconds), default is 2000
+    responsive: true,  // true/false or { delay: 200 }, default true
     maxShift: 3     // The maximum number of each shift, default is 4
   });
 ```
 
 ## Changelog
+### 0.6.0
+- add responsive ability
+- add switcher option
+- supports amd and umd
+
+10.07.2016
+
 ### 0.5.3
 - refactor codes
 - add gulp, eslint, etc
