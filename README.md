@@ -58,7 +58,7 @@ $(function() {
     backwardSelector: '#backwardArrow', // Declare selector of "backward" button
     switcher: true, // Whether navigator auto to switch
     speed: 1000,    // The speed to animate each shift (in milliseconds), default is 2000
-    responsive: true,  // true/false or { delay: 200 }, default true
+    responsive: true,  // true/false or { delay: 200 }, default open responsive ability and set delay is 200
     maxShift: 3     // The maximum number of each shift, default is 4
   });
 ```
